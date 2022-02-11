@@ -492,7 +492,7 @@ h3 {
 }
 
 /* Media */
-@media only screen and (max-width: 575.98px) {
+@media screen and (max-width: 575.98px) {
   .header {
     margin: 0px;
     padding: 0%;
@@ -632,7 +632,7 @@ h3 {
     text-align: center;
   }
   .screen .screen-text h3 {
-    margin: auto;
+    margin: 0px;
     width: 320px;
     font-weight: 600;
   }
@@ -667,7 +667,7 @@ h3 {
   .amico1 {
     width: 338px;
     height: 320px;
-    /* display: flex; */
+    display: flex;
   }
   .speed .speed-text {
     width: 320px;
