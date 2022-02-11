@@ -510,6 +510,7 @@ h3 {
   .footer {
     padding: 0%;
     margin: 0px;
+    width: 390px;
   }
   .container {
     margin: 0px;
@@ -669,7 +670,7 @@ h3 {
     /* display: flex; */
   }
   .speed .speed-text {
-    width: 350px;
+    width: 320px;
   }
   .speed .speed-title {
     font-size: 34px;
