@@ -494,7 +494,6 @@ h3 {
 /* Media */
 @media screen and (max-width: 575.98px) {
   .header {
-    margin: 0px;
     padding: 0%;
     display: none;
   }
@@ -509,10 +508,6 @@ h3 {
   .screen,
   .footer {
     padding: 0%;
-    margin: 0px;
-  }
-  .container {
-    margin: 0px;
   }
   .speed .row > div:nth-child(1) {
     order: 2;
@@ -520,7 +515,6 @@ h3 {
   .speed .row > div .amico1 {
     margin: 0px;
     height: 310px;
-    /* display: flex; */
     margin-top: 20px;
   }
   .speed-com {
@@ -557,9 +551,6 @@ h3 {
   .management-text {
     line-height: 26px;
     margin-top: 20px;
-  }
-  .management-text * {
-    margin: auto;
   }
   .management-com {
     margin-top: 20px;
@@ -637,7 +628,6 @@ h3 {
   }
   .screen .screen-text {
     padding-top: 40px;
-    margin: 0%;
     text-align: center;
   }
   .screen .screen-text .get-start {
@@ -665,7 +655,6 @@ h3 {
   .amico1 {
     width: 338px;
     height: 320px;
-    display: flex;
   }
   .speed .speed-text {
     width: 320px;
