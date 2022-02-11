@@ -510,7 +510,6 @@ h3 {
   .footer {
     padding: 0%;
     margin: 0px;
-    width: 390px;
   }
   .container {
     margin: 0px;
@@ -521,7 +520,7 @@ h3 {
   .speed .row > div .amico1 {
     margin: 0px;
     height: 310px;
-    display: flex;
+    /* display: flex; */
     margin-top: 20px;
   }
   .speed-com {
@@ -618,12 +617,12 @@ h3 {
     text-align: center;
   }
   .price-card {
-    margin: 20px 40px;
+    margin: 20px 0px;
   }
 
   /* Client Say */
   .c-say .c-say-card {
-    margin: 15px 40px;
+    margin: 15px 0px;
   }
 
   /* Screen */
@@ -645,7 +644,7 @@ h3 {
     margin: 40px 0px;
   }
   .screen-img img {
-    width: 358px;
+    width: 348px;
   }
   .screen .row {
     border-radius: 0px;
@@ -657,7 +656,6 @@ h3 {
     text-align: center;
   }
   .footer .logo {
-    justify-content: center;
     justify-content: center;
   }
   .footer-com {
@@ -683,5 +681,10 @@ h3 {
   }
   .process-title > p {
     width: 338px;
+  }
+  .process-title h2 {
+    margin: 0%;
+    width: 350px;
+    text-align: center;
   }
 }
