@@ -496,7 +496,9 @@ h3 {
   .header {
     margin: 0px;
     padding: 0%;
+    display: none;
   }
+  .header,
   .speed,
   .p-build,
   .management,
@@ -507,7 +509,10 @@ h3 {
   .screen,
   .footer {
     padding: 0%;
-    margin: 0%;
+    margin: 0px;
+  }
+  .container {
+    margin: 0px;
   }
   .speed .row > div:nth-child(1) {
     order: 2;
