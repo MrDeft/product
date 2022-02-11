@@ -617,12 +617,12 @@ h3 {
     text-align: center;
   }
   .price-card {
-    /* margin: 20px 40px; */
+    margin: 20px 40px;
   }
 
   /* Client Say */
   .c-say .c-say-card {
-    /* margin: 15px 40px; */
+    margin: 15px 40px;
   }
 
   /* Screen */
@@ -644,7 +644,7 @@ h3 {
     margin: 40px 0px;
   }
   .screen-img img {
-    width: 378px;
+    width: 358px;
   }
   .screen .row {
     border-radius: 0px;
@@ -669,7 +669,7 @@ h3 {
     /* display: flex; */
   }
   .speed .speed-text {
-    width: 360px;
+    width: 350px;
   }
   .speed .speed-title {
     font-size: 34px;
