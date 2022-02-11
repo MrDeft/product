@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 li {
@@ -494,7 +494,7 @@ h3 {
 /* Media */
 @media only screen and (max-width: 575.98px) {
   .header {
-    margin: auto;
+    margin: 0px;
     padding: 0%;
   }
   .speed,
@@ -507,18 +507,19 @@ h3 {
   .screen,
   .footer {
     padding: 0%;
+    margin: 0%;
   }
   .speed .row > div:nth-child(1) {
     order: 2;
   }
   .speed .row > div .amico1 {
-    margin: auto;
+    margin: 0px;
     height: 310px;
     display: flex;
     margin-top: 20px;
   }
   .speed-com {
-    width: 400px;
+    width: 300px;
     text-align: center;
   }
   .start-watch {
@@ -536,7 +537,7 @@ h3 {
   }
   /* Product Build */
   .p-build {
-    margin: auto;
+    margin: 0px;
     margin-top: 50px;
     text-align: center;
   }
@@ -611,12 +612,12 @@ h3 {
     text-align: center;
   }
   .price-card {
-    margin: 20px 40px;
+    /* margin: 20px 40px; */
   }
 
   /* Client Say */
   .c-say .c-say-card {
-    margin: 15px 40px;
+    /* margin: 15px 40px; */
   }
 
   /* Screen */
@@ -648,9 +649,9 @@ h3 {
   .footer {
     margin-top: 50px;
     text-align: center;
-    justify-content: center;
   }
   .footer .logo {
+    justify-content: center;
     justify-content: center;
   }
   .footer-com {
