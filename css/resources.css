@@ -1,0 +1,186 @@
+.gread {
+    color: #22343D;
+    padding: 70px 100px;
+}
+.gread-com h1 {
+    font-size: 40px;
+    line-height: 1.3;
+}
+.gread-com p {
+    width: 500px;
+    font-size: 20px;
+    line-height: 32px;
+}
+.join {
+    margin: 20px 0px;
+    position: relative;
+}
+.join input {
+    width: 470px;
+    height: 66px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 20px;
+    border-radius: 100px;
+    border: 1px solid #eaeaea;
+}
+#submit {
+    width: auto;
+    height: auto;
+    right: 110px;
+    color: white;
+    position: relative;
+    padding: 16px 15px;
+    background-color: #02897A;
+}
+.join-other {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+.join-other .join-text {
+    padding-left: 10px;
+}
+.join-other .join-text span {
+    color: #02897A;
+}
+
+/* Contents */
+.contents {
+    padding-top: 10px;
+}
+.contents-card p, h3 {
+    width: 380px;
+    line-height: 1.3;
+}
+.contents-title {
+    text-align: center;
+}
+.contents-title h1 {
+    font-size: 34px;
+    font-weight: 800;
+}
+.contents-pages {
+    padding: 50px 0px;
+}
+.contents-pages a {
+    font-size: 18px;
+    font-weight: 700;
+}
+.contents-pages a i {
+    padding-right: 8px;
+}
+
+/* Map */
+.map {
+    color: #252B42;
+    text-align: center;
+    padding: 0px 200px 100px 200px;
+}
+.map .row {
+    padding: 0%;
+    margin: auto;
+    justify-content: center;
+}
+.map img {
+    width: 870px;
+}
+.map-com h1 {
+    font-size: 34px;
+}
+.map-com p {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    letter-spacing: .2px;
+}
+.map .bi {
+    padding: 12px;
+    font-size: 20px;
+    color: #02897a;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 25px 10px 5px 0px;
+    background-color: #edfffc;
+}
+.map-img {
+    padding: 50px 0px;
+}
+.send {
+    margin: 90px;
+    padding: 50px 50px;
+    border-radius: 20px;
+    justify-items: center;
+    border: 1px solid #DDDDDD;
+}
+.send input, textarea {
+    height: 54px;
+    width: 770px;
+    outline: none;
+    display: block;
+    font-size: 15px;
+    margin: 40px 0px;
+    padding: 19px 20px;
+    border-radius: 39px;
+    border: 1px solid #E8E8E8;
+    background-color: #F5F5F5;
+}
+.send textarea {
+    height: auto;
+    resize: none;
+    border-radius: 0%;
+}
+.send #send {
+    margin: 0%;
+    width: auto;
+    color: white;
+    font-size: 16px;
+    padding: 18px 50px;
+    border-radius: 35px;
+    background-color: #02897A;
+}
+
+/* Media */
+@media screen and (max-width: 575.98px) {
+    .gread, .contents, .map {
+        padding: 0%;
+    }
+    .map img {
+        width: 350px;
+    }
+    .send {
+        margin: 0%;
+        padding: 50px 20px;
+    }
+    .send input, textarea {
+        width: 330px;
+    }
+    .gread-img img {
+        width: 350px;
+    }
+    .gread {
+        text-align: center;
+    }
+    .join input {
+        width: 350px;
+    }
+    .gread-com p {
+        margin: auto;
+        width: 350px;
+    }
+    #submit {
+        left: 120px;
+        bottom: 60px;
+        position: relative;
+    }
+    .join {
+        height: 80px;
+    }
+    .join-other {
+        margin: 20px 0px;
+        justify-content: center;
+    }
+    .map-com div {
+        display: none;
+    }
+}

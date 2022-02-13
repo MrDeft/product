@@ -19,7 +19,9 @@ a {
   font-family: "Poppins", sans-serif;
   src: url("../font/Poppins/Poppins-Thin.ttf");
 }
-
+.toggle {
+  display: none;
+}
 /* Header */
 .header {
   padding: 20px 100px;
@@ -495,7 +497,7 @@ h3 {
 @media screen and (max-width: 575.98px) {
   .header {
     padding: 0%;
-    display: none;
+    /* display: none; */
   }
   .header,
   .speed,
@@ -676,4 +678,73 @@ h3 {
     width: 350px;
     text-align: center;
   }
+
+
+
+  .nav-com .nav-item:last-child {
+    display: none;
+  }
+  .nav-com {
+    top: 0%;
+    right: 0%;
+    width: 300px;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    transition: all .3s;
+    background-color: #e0e0e0;
+    padding: 50px 20px 100px 40px;
+    display: none;
+  }
+  .nav-item {
+    padding: 20px 20px;
+    border-bottom: 1px solid #afafaf;
+  }
+  .header .row {
+    align-items: flex-start;
+  }
+  .navbar .logo {
+    margin-top: 20px;
+  }
+  .toggle {
+    top: 25px;
+    right: 60px;
+    display: flex;
+    font-size: 28px;
+    position: absolute;
+  }
+  input[type = "checkbox"] {
+    top: 20px;
+    zoom: 1.5;
+    z-index: 2;
+    left: 82px;
+    font-size: 300px;
+    position: relative;
+  }
+  input[type = "checkbox"]:checked  div > .nav-com {
+    top: 0%;
+    right: 0%;
+    width: 300px;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    transition: all .3s;
+    background-color: #e0e0e0;
+    padding: 50px 20px 100px 40px;
+  }
+  .toggle-hide {
+    top: 0%;
+    left: 80%;
+    position: relative;
+  }
+  .toggle-hide:checked .nav-com {
+    display: none;
+  }
+
+
+
+
+
+
+
 }

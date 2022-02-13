@@ -1,0 +1,154 @@
+.pricing-title {
+  font-size: 24px;
+}
+.price-title h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.price {
+  color: #22343d;
+  margin-top: 50px;
+}
+
+/* ENTERPRISE */
+.enterprise {
+  color: #22343d;
+  padding: 50px 100px;
+  text-align: center;
+  background: linear-gradient(180deg, #f7f7f7 0%, rgba(247, 247, 247, 0) 100%);
+}
+.enterprise h2 {
+  font-size: 24px;
+}
+.enterprise h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+.enterprise p {
+  font-size: 18px;
+}
+.enterprise .get-start {
+  margin-top: 30px;
+  font-weight: 600;
+  padding: 11px 18px;
+  display: inline-block;
+}
+
+/* Effects */
+.effect {
+  color: #22343d;
+  padding: 150px 100px 0px 100px;
+}
+.effect-title h1 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+}
+.effect .row {
+  align-items: center;
+}
+.effect-item div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.effect-item div h3 {
+  padding-left: 14px;
+  font-weight: 700;
+}
+.effect-item p {
+  width: 540px;
+  font-size: 16px;
+  line-height: 28px;
+}
+.effect-item {
+  margin: 30px 0px;
+}
+.effect .amico1 {
+  width: 530px;
+}
+
+/* Question */
+.question {
+  color: #22343d;
+  padding: 50px 100px;
+}
+.question-text h1 {
+  text-align: center;
+}
+.question-text > p {
+  font-size: 18px;
+  text-align: center;
+}
+.question-item {
+  align-items: center;
+  padding: 20px 0px 0px 0px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.question-com {
+  margin-top: 50px;
+  padding-left: 50px;
+}
+.question-item p {
+  bottom: 5px;
+  font-weight: 600;
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 14px;
+  display: inline-flex;
+}
+.question-item span {
+  width: 920px;
+  display: block;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+/* Media */
+@media screen and (max-width: 575.98px) {
+  .header {
+    padding: 0%;
+    display: none;
+  }
+  .question,
+  .effect,
+  .enterprise,
+  .price {
+    padding: 0%;
+  }
+  .enterprise {
+    padding-top: 50px;
+    background: linear-gradient(
+      180deg,
+      #f7f7f7 0%,
+      rgba(247, 247, 247, 0) 100%
+    );
+    margin-top: 30px;
+  }
+  .effect {
+    margin-top: 80px;
+  }
+  .screen {
+    margin-top: 100px;
+  }
+  .price-title h1 {
+    font-size: 36px;
+  }
+  .effect .amico1 {
+    width: 350px;
+  }
+  .enterprise .get-start {
+    margin: 30px 0%;
+  }
+  .effect-item p {
+    width: 350px;
+  }
+  .question-com {
+    padding-left: 0px;
+  }
+  .question-item span {
+    text-align: center;
+    width: 350px;
+  }
+}

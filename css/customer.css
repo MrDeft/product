@@ -1,0 +1,142 @@
+/* Company */
+.company {
+  padding: 50px 150px;
+}
+.company .company-title h2 {
+  font-size: 40px;
+  font-weight: 800;
+  display: block;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.company .row {
+  align-items: flex-end;
+}
+.company .row > div {
+  text-align: center;
+}
+
+/* Product Built */
+.p-build {
+  padding-top: 30px;
+  background-color: #f5f5f5;
+}
+.p-build .p-info {
+  padding: 35px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #dedede;
+}
+.p-info p {
+  width: 255px;
+  margin: auto;
+}
+
+/* Product Work */
+.management {
+  padding: 100px;
+  position: relative;
+}
+.management .row {
+  margin-top: 100px;
+  align-items: center;
+}
+.management img {
+  height: 280px;
+  margin: auto;
+  display: flex;
+  width: 500px;
+}
+.management-title h1 {
+  margin: 0%;
+  text-align: center;
+}
+.management-text {
+  margin-top: 0%;
+  padding: 0px 50px;
+}
+.management-text h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.management-text h4 {
+  padding: 16px 0px;
+  font-size: 24px;
+}
+.management-text p {
+  font-size: 16px;
+  line-height: 28px;
+}
+.management .get-start {
+  margin: auto;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Offers */
+.offers {
+  color: #22343d;
+  padding: 30px 100px;
+  text-align: center;
+  background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
+}
+.offers h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.offers-com {
+  margin-top: 90px;
+}
+.offers-com h5 {
+  font-size: 24px;
+  margin-top: 25px;
+}
+.offers-com h6 {
+  font-size: 16px;
+}
+.offers-com p {
+  margin: 16px 0px;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+/* Media */
+@media screen and (max-width: 575.98px){
+    .offers,.padding,.company,.management {
+        padding: 0%;
+    }
+    .company .company-title h2 {
+        padding: 50px 0px 0px 0px;
+        font-size: 36px;
+    }
+    .company img {
+        padding: 20px 0px;
+        width: 160px;
+    }
+    .offers {
+        padding: 80px 0px;
+    }
+    .management .row {
+        margin-top: 30px;
+    }
+    .management .get-start {
+        display: none;
+    }
+    .management img {
+        width: 350px;
+    }
+    .management .row:nth-child(2n) div:nth-child(1) .management-text {
+        padding: 0%;
+        margin: 0%;
+    }
+    .offers h1 {
+        margin: auto;
+        width: 300px;
+    }
+}
