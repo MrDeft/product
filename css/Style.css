@@ -21,7 +21,9 @@ a {
 }
 .toggle {
   display: none;
+  position: absolute;
 }
+
 /* Header */
 .header {
   padding: 20px 100px;
@@ -679,8 +681,6 @@ h3 {
     text-align: center;
   }
 
-
-
   .nav-com .nav-item:last-child {
     display: none;
   }
@@ -691,7 +691,7 @@ h3 {
     height: 100vh;
     display: block;
     position: fixed;
-    transition: all .3s;
+    transition: all 0.3s;
     background-color: #e0e0e0;
     padding: 50px 20px 100px 40px;
     display: none;
@@ -707,44 +707,43 @@ h3 {
     margin-top: 20px;
   }
   .toggle {
-    top: 25px;
-    right: 60px;
-    display: flex;
-    font-size: 28px;
-    position: absolute;
-  }
-  input[type = "checkbox"] {
     top: 20px;
     zoom: 1.5;
-    z-index: 2;
-    left: 82px;
-    font-size: 300px;
-    position: relative;
+    /* z-index: 10; */
+    right: 50px;
+    display: inline;
+    position: absolute;
   }
-  input[type = "checkbox"]:checked  div > .nav-com {
+  .hide {
+    opacity: 0;
+  }
+  .show {
+    opacity: 1;
+  }
+  input[type = "checkbox"] {
+    opacity: 0;
+    z-index: 10;
+  }
+
+  .navbar input:checked ~ .show {
+    opacity: 0;
+    z-index: 11;
+    transition: all .3s;
+  }
+  .navbar input:checked ~ .nav-com .hide {
+    opacity: unset;
+    z-index: 91;
+  }
+
+  input[type = "checkbox"]:checked ~ .nav-com {
     top: 0%;
     right: 0%;
     width: 300px;
     height: 100vh;
     display: block;
     position: fixed;
-    transition: all .3s;
+    transition: all 0.3s;
     background-color: #e0e0e0;
     padding: 50px 20px 100px 40px;
   }
-  .toggle-hide {
-    top: 0%;
-    left: 80%;
-    position: relative;
-  }
-  .toggle-hide:checked .nav-com {
-    display: none;
-  }
-
-
-
-
-
-
-
 }
