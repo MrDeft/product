@@ -183,4 +183,8 @@
     .map-com div {
         display: none;
     }
+    .join input {
+        position: relative;
+        z-index: -1;
+    }
 }
