@@ -1,0 +1,2 @@
+ScrollReveal().reveal('.container', { duration: 1000, reset: true, origin: 'bottom', distance: '50px' });
+ScrollReveal().reveal('.row', { duration: 1000, reset: true, origin: 'bottom', distance: '50px' });
